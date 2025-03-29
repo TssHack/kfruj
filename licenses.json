@@ -11,7 +11,7 @@
   },
   "g9s7B3lPZVXN3k2hD2fWgRzOq67d2XKZbgcnqVQ4Ksgg": {
     "type": "limited",
-    "enabled": false,
+    "enabled": true,
     "dailyLimit": 30
   }
 }
