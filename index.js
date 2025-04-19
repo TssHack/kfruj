@@ -2,6 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const crypto = require("crypto");
 const fs = require("fs");
+const path = require('path');
 const winston = require("winston");
 const app = express();
 const port = 3000;
@@ -20,7 +21,8 @@ const headers = {
     "Content-Type": "application/json"
 };
 
-const licenseFilePath = "licenses.json";
+const licenseFilePath = path.join(__dirname, 'licenses.json');
+const licenses = JSON.parse(fs.readFileSync(licenseFilePath, 'utf-8'));
 const requestLimits = {};
 const dailyLimit = 50;
 
