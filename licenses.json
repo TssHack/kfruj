@@ -1,15 +1,15 @@
 {
-  "rgKvMnhUjm1aJlFzKgsZ5dAoK7yqZUdXw7T8T6PQGR0g": {
+  "rgKvMnhUjm1aJlFzKgsZ5dAoK7yqdXw7T8T6PQGR0g": {
     "type": "unlimited",
     "enabled": true,
     "dailyLimit": null
   },
-  "Kj5uZTgzkEmgZk5Fi3ev2RiSB0p63k1p8L8deWs9l34g": {
+  "Kj5uZTgzkEmgZk5Fi3ev2RiSB0p63k1p8L8deWs9l3": {
     "type": "limited",
     "enabled": true,
     "dailyLimit": 50
   },
-  "g9s7B3lPZVXN3k2hD2fWgRzOq67d2XKZbgcnqVQ4Ksgg": {
+  "g9s7B3lPZVXN3k2hD2fWgRzOq67d2XKZbgcnqVQ4Ks": {
     "type": "limited",
     "enabled": true,
     "dailyLimit": 30
